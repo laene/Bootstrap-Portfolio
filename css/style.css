@@ -1,0 +1,89 @@
+
+
+.wrapper {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.navbar {
+    align-self: center;
+    margin: auto;
+    border-bottom: 2pt solid grey;
+}
+
+.navbar-nav {
+    justify-content: end;
+}
+
+body {
+    width: 100%;
+    background-image: url(images/full-bloom.png);
+}
+
+.container {
+    background: white;
+}
+
+h2 {
+border-bottom: 1pt solid grey;
+padding: 10px;
+color: teal;
+}
+
+.navbar-brand {
+    background: teal;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+
+.navbar {
+    padding:0;
+}
+
+.navbar-light .navbar-brand {
+    color: white;
+    padding: 10pt;
+}
+
+.media {
+    max-width: 90%;
+    margin: auto;
+    padding: 20px;
+}
+
+.mr-3 {
+    width: 200px;
+    height: 200px;
+}
+
+.contact-form {
+    padding: 20pt;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    color:white;
+    margin: 10pt;
+}
+
+.card-body {
+    background: teal;
+}
+.fixed-bottom {
+    border-top: 8px solid teal;
+    padding: 10;
+}
+
+.navbar-brand-dark {
+    color: white;
+    align-self: center;
+    margin: auto;
+
+
+}
+
+/* get media query code off of bootstraps website */
